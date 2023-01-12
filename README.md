@@ -15,6 +15,8 @@ npm i
 npm start
 ```
 
-## License
+## Uso
+Quando aparecer uma tela toda branca, aperte o botão `"Insert"` para que apareça o menu
 
+## License
 MIT
