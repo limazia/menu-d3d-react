@@ -1,0 +1,27 @@
+.card {
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0px;
+}
+
+.card-header,
+.card-body {
+  background: #fff;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.16);
+}
+
+.card-header {
+  border-bottom: none;
+
+  &:first-child {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+  }
+}
+
+.card-body-other {
+  background: #fff;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.16);
+  border-radius: 1rem;
+}

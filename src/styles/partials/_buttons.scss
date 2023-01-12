@@ -1,0 +1,27 @@
+.btn-generate,
+.btn-generate:focus,
+.btn-generate:active,
+.btn-generate:active:focus:not(:disabled):not(.disabled) {
+  background-color: #8257e5;
+  color: #ffffff;
+  border-radius: 6px;
+  border: 0px;
+  font-weight: bold;
+  height: 50px;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+
+  &:hover {
+    color: #ffffff;
+    background-color: rgba(130, 87, 229, 0.9);
+    border: 0px;
+  }
+
+  &:disabled,
+  button[disabled] {
+    cursor: not-allowed;
+    color: #ffffff;
+    background-color: #41356b;
+  }
+}

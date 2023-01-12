@@ -1,0 +1,33 @@
+.tabs {
+  border-right: 0.0625rem solid rgba(0, 0, 0, 0.16);
+
+  ul.nav {
+    display: block;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.16);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+
+  ul.nav li {
+    padding: 1rem;
+    list-style: none;
+    text-align: left;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.7s;
+    font-weight: 500;
+    color: #707070;
+
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  ul.nav li.active,
+  ul.nav li:hover {
+    color: #000;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
